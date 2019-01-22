@@ -4,7 +4,21 @@
 2.web상의 gir과 연결될 local folder 생성
 3.로컬 폴더 연결 => 폴더에 git bash 실행
 4.git init 입력 => git 폴더 확인 , gir remote add origin 깃주소
-5.
+5.사용할 파일 git이 들어있는 폴더에 저장
+6.git status 로 폴더와 git의 차이 확인
+7.git commit- m " "( 계정 연동이 안되어있다면 gir config --global user.email "~~" , gir config --global user.name "~~" )
+8.git commit -m " " 
+9.git push origin master 이후 로그인
+10.파일 업로드 확인
+
+파일가져오기
+
+1.가져올 폴더에 git bash
+2.git init => git remote add origin "가져올 주소"
+3.git push origin master
+
+
+*한번 git init 과 git remote 한 폴더는 다시 할 필요 없음
 
 
 

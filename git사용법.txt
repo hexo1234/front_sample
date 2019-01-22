@@ -16,10 +16,10 @@
 1.가져올 폴더에 git bash
 2.git init => git remote add origin "가져올 주소"
 3.git push origin master
+4.확인
 
 
 *한번 git init 과 git remote 한 폴더는 다시 할 필요 없음
-
 
 
 

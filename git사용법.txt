@@ -1,0 +1,23 @@
+﻿github 사용법
+
+1.create a new repository
+2.web상의 gir과 연결될 local folder 생성
+3.로컬 폴더 연결 => 폴더에 git bash 실행
+4.git init 입력 => git 폴더 확인 , gir remote add origin 깃주소
+5.
+
+
+
+
+*push전에 pull이 있다.
+
+*git status
+현재 git과 나의 폴더간의 상태 확인.
+
+*git add .
+변경된 파일들을 모두 tracking
+
+git commit -m "message"
+
+git push origin +master
+git pull origin +master

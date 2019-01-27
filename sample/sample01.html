@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="sample01.js"></script>
+  <title>계산기</title>
+</head>
+<body>
+  <!-- id값 활용 -->
+
+  <section>
+    <h1>계산기 프로그램</h1>
+    <div>
+      <input id="txt-x" type="text" value="0" dir="rtl"/>
+      +
+      <input id="txt-y" type="text" value="0" dir="rtl"/>
+      <input id=btn-add type="button" value="="/>
+      <input id="txt-sum" type="text" value="0" dir=rtl readonly/>
+    </div>
+    <hr />
+  </section>
+
+
+
+  <!-- 배열사용 -->
+
+  <section id="section2">
+      <h1>배열 인덱스 값 사용</h1>
+      <div>
+        <input id="txt-x" type="text" value="0" dir="rtl"/>
+        +
+        <input id="txt-y" type="text" value="0" dir="rtl"/>
+        <input id=btn-add type="button" value="="/>
+        <input id="txt-sum" type="text" value="0" dir=rtl readonly/>
+      </div>
+    </section>
+  <hr />
+
+
+  <!-- 엘리먼트 선택 방법 개선 -->
+
+  <section id="section3">
+      <h1>ClassName 배열 활용</h1>
+      <div>
+        <input class="txt-x" type="text" value="0" dir="rtl"/>
+        +
+        <input class="txt-y" type="text" value="0" dir="rtl"/>
+        <input class="btn-add" type="button" value="="/>
+        <input class="txt-sum" type="text" value="0" dir=rtl readonly/>
+      </div>
+    </section>
+  <hr />
+
+  <!-- 쿼리 셀렉터 활용 -->
+
+  <section id="section4">
+      <h1>쿼리 셀렉터 활용</h1>
+      <div>
+        <input class="txt-x" type="text" value="0" dir="rtl"/>
+        +
+        <input class="txt-y" type="text" value="0" dir="rtl"/>
+        <input class="btn-add" type="button" value="="/>
+        <input class="txt-sum" type="text" value="0" dir=rtl readonly/>
+      </div>
+    </section>
+  <hr />
+</body>
+</html>
+
+<!-- childNodes를 이용한 노드 선택 -->
+
+<section id="section5">
+    <h1>childeNodes를 이용한 노드 선택</h1>
+    <div class="box">
+      <input type="text" />
+      <input type="text" />
+    </div>
+  </section>
+<hr />
+</body>
+</html>
